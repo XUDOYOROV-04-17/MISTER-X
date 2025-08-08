@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlateMate Da Nang - Месяц готовой еды</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="top-banner">
+
+        <span><img src="/imgs/Вьетнам.png" alt="">Мы находимся во Вьетнаме, Да Нанг!</span>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-left">
+                <a class="nav-link">Как заказать?</a>
+                <a class="nav-link">Наборы</a>
+                <a class="nav-link">Карта</a>
+                <a class="nav-link">FAQ</a>
+            </div>
+
+            <div class="logo">
+                <img src="./imgs/Logo.svg" alt="Logo">
+            </div>
+
+            <div class="nav-right">
+                <div class="language-dropdown">
+                    <span>English</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="support">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Поддержка</span>
+                </div>
+                <a>Сделать заказ</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="content-left">
+            <h1 class="main-headline">
+                Месяц готовой еды<br>
+                и бесплатная замена блюд
+            </h1>
+            <div class="price">
+                от <strong>300.000.000</strong> донг
+            </div>
+            <button class="cta-button">
+                Заказать еду на месяц
+            </button>
+        </div>
+
+        <div class="content-right">
+            <div class="food-image">
+                <img src="./imgs/56276930859c8fe2c5a0d2cd9e773f9fdcc18fbf.png" alt="Home Page Image"
+                    class="object-cover rounded-[12px] sm:rounded-[16px] w-[80%] sm:w-[60%] lg:w-full max-w-[400px] md:max-w-none">
+            </div>
+        </div>
+    </main>
+
+    <section class="sec_1">
+        <div class="info-container">
+            <div class="info-card">
+                <div class="info-icon">
+                    <img src="./imgs/Замена.svg" alt="Замена">
+                </div>
+                <div class="info-text"><span class="span">Бесплатная замена</span> блюд</div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">
+                    <img src="./imgs/Меню.svg" alt="Меню">
+                </div>
+                <div class="info-text"><span class="span">140 блюд</span> в меню</div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">
+                    <img src="./imgs/Цена.svg" alt="Цена">
+                </div>
+                <div class="info-text"> <span class="span">от 230 000 ₫</span> в день</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec_2">
+        <div class="order-container">
+            <h2 class="section-title">Как заказать?</h2>
+            <div class="steps-container">
+
+                <div class="step-card">
+                    <div class="step-icon">
+                        <i class="fas fa-receipt"></i>
+                    </div>
+                    <div class="step-number">01</div>
+                    <h3 class="step-title">Создайте заказ</h3>
+                    <p class="step-description">Выберите удобный набор и количество дней</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-icon">
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <div class="step-number">02</div>
+                    <h3 class="step-title">Оставьте заявку</h3>
+                    <p class="step-description">Выберите удобный способ связи с вами</p>
+                </div>
+
+                <div class="step-card3">
+                    <div class="step-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="step-number">03</div>
+                    <h3 class="step-title">Подтвердите заказ</h3>
+                    <p class="step-description">Мы с вами свяжемся чтобы определить дату доставки, оплату и временной
+                        диапазон для доставки</p>
+                </div>
+
+                <div class="step-card4">
+                    <div class="step-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="step-number">04</div>
+                    <h3 class="step-title">Наслаждайтесь ❤️</h3>
+                    <p class="step-description">Еда приходит сразу на два дня, останется её только разогреть.</p>
+                    <button class="order-button">Сделать заказ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec_3">
+        <div class="sets-container">
+            <h2 class="sets-title">Наборы</h2>
+            <p class="sets-subtitle">Выберите один из наборов, чтобы продолжить</p>
+
+            <div class="sets-grid">
+
+                <input type="radio" name="meal-set" id="set1" class="set-radio" checked>
+                <label for="set1" class="set-card">
+                    <div class="selection-indicator">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3 class="set-name">Стартовый</h3>
+                    <p class="set-content">3 блюда</p>
+                    <p class="set-description">Идеально для классического режима питания</p>
+                    <div class="set-price">от 460.000 ₫</div>
+                    <div class="food-images">
+                        <img src="./imgs/food1.png" alt="Food 1" class="food-img">
+                    </div>
+                </label>
+
+                <input type="radio" name="meal-set" id="set2" class="set-radio">
+
+                <label for="set2" class="set-card">
+                    <div class="selection-indicator">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3 class="set-name">Базовый+</h3>
+                    <p class="set-content">3 блюда + напиток</p>
+                    <p class="set-description">Дополнительное преимущество освежающего напитка</p>
+                    <div class="set-price">от 490.000 ₫</div>
+                    <div class="food-images">
+                        <img src="./imgs/food1.png" alt="Food 1" class="food-img">
+                    </div>
+                </label>
+
+                <input type="radio" name="meal-set" id="set3" class="set-radio">
+                <label for="set3" class="set-card">
+                    <div class="selection-indicator">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3 class="set-name">Комфорт</h3>
+                    <p class="set-content">4 блюда + напиток</p>
+                    <p class="set-description">Оптимально для активного образа жизни</p>
+                    <div class="set-price">от 575.000 ₫</div>
+                    <div class="food-images">
+                        <img src="./imgs/food3.png" alt="Food 3" class="food-img">
+                    </div>
+                </label>
+
+                <input type="radio" name="meal-set" id="set4" class="set-radio">
+                <label for="set4" class="set-card">
+                    <div class="selection-indicator">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3 class="set-name">Премиум</h3>
+                    <p class="set-content">5 блюд + напиток</p>
+                    <p class="set-description">Больше вкусных блюд</p>
+                    <div class="set-price">от 660.000 ₫</div>
+                    <div class="food-images">
+                        <img src="./imgs/food4.png" alt="Food 1" class="food-img">
+                    </div>
+                </label>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- sec_4: Example Menu + Order Form -->
+    <section class="sec_4">
+        <div class="container">
+            <!-- MENU BLOCK -->
+            <div class="menu">
+                <h2>Пример меню</h2>
+                <div class="weekdays">
+                    <button class="active">Пн</button>
+                    <button>Вт</button>
+                    <button>Ср</button>
+                    <button>Чт</button>
+                    <button>Пт</button>
+                    <button>Сб</button>
+                    <button>Вс</button>
+                </div>
+                <h3>6 блюд, 3 приёма</h3>
+                <div class="meals">
+                    <div class="meal">
+                        <img src="imgs/02fd70256ee12edc9c6f2659026ae6b4ab0cfa73.png" alt="Перекус">
+                        <h4>Перекус</h4>
+                        <p>Салат из свеклы с сыром</p>
+                    </div>
+                    <div class="meal">
+                        <img src="imgs/zaynab_qilgan_rasm.png" alt="Обед">
+                        <h4>Обед</h4>
+                        <p>Запеченное филе индейки с булгуром и овощами</p>
+                    </div>
+                    <div class="meal">
+                        <img src="imgs/56276930859c8fe2c5a0d2cd9e773f9fdcc18fbf.png" alt="Ужин">
+                        <h4>Ужин</h4>
+                        <p>Запеченное филе индейки с булгуром и овощами</p>
+                    </div>
+                    <div class="meal">
+                        <img src="imgs/02fd70256ee12edc9c6f2659026ae6b4ab0cfa73.png" alt="Перекус">
+                        <h4>Перекус</h4>
+                        <p>Салат из свеклы с сыром</p>
+                    </div>
+                    <div class="meal">
+                        <img src="imgs/zaynab_qilgan_rasm.png" alt="Обед">
+                        <h4>Обед</h4>
+                        <p>Запеченное филе индейки с булгуром и овощами</p>
+                    </div>
+                    <div class="meal">
+                        <img src="imgs/56276930859c8fe2c5a0d2cd9e773f9fdcc18fbf.png" alt="Ужин">
+                        <h4>Ужин</h4>
+                        <p>Запеченное филе индейки с булгуром и овощами</p>
+                    </div>
+                </div>
+                <button class="add-meal">Добавить блюдо</button>
+            </div>
+
+            <!-- ORDER FORM BLOCK -->
+            <div class="order-form">
+                <h2>Форма заказа</h2>
+                <div class="duration">
+                    <p>Длительность</p>
+                    <div class="options">
+                        <button>2 дня</button>
+                        <button class="active">6 дней</button>
+                        <button>14 дней</button>
+                        <button>28 дней</button>
+                    </div>
+                </div>
+                <div class="exclude">
+                    <p>Исключить ингредиенты</p>
+                    <input type="text" value="Орехи, нуга, молочка">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="plastic" checked>
+                    <label for="plastic">Нужны пластиковые приборы</label>
+                </div>
+                <div class="price">
+                    <p>Стартовый <span>230 000 đ в день</span></p>
+                    <h3>Итого: <strong>230 000 đ</strong></h3>
+                </div>
+                <button class="order">Заказать</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="sec_5">
+        <div class="container">
+            <h2>Попробуйте коробочки <br> с едой в течение 2 дней</h2>
+            <p>Оставьте нам свой контакт, и мы позвоним вам в течение двух часов в рабочее время и договоримся обо всём
+                за 10 минут.</p>
+
+            <div class="days">
+                <div class="day">1 <br><span>день</span></div>
+                <img src="imgs/56276930859c8fe2c5a0d2cd9e773f9fdcc18fbf.png" alt="Ужин">
+                <img src="imgs/56276930859c8fe2c5a0d2cd9e773f9fdcc18fbf.png" alt="Ужин">
+                <img src="imgs/56276930859c8fe2c5a0d2cd9e773f9fdcc18fbf.png" alt="Ужин">
+                <span>+</span>
+                <img src="imgs/56276930859c8fe2c5a0d2cd9e773f9fdcc18fbf.png" alt="Ужин">
+                <img src="imgs/56276930859c8fe2c5a0d2cd9e773f9fdcc18fbf.png" alt="Ужин">
+                <img src="imgs/56276930859c8fe2c5a0d2cd9e773f9fdcc18fbf.png" alt="Ужин">
+                <div class="day">2<br><span>дня</span></div>
+            </div>
+
+            <button class="btn">Попробовать</button>
+        </div>
+    </section>
+
+
+
+    <section class="sec_6">
+        <div class="container">
+            <h2>Три причины выбрать <span>PlateMate</span></h2>
+            <div class="sec_6__cards">
+                <div class="sec_6__card">
+                    <h3>Готовое питание по цене продуктовой корзины</h3>
+                    <ul>
+                        <li>✔ Экономим ваше время</li>
+                        <li>✔ Разнообразное питание</li>
+                        <li>✔ Никакой грязной посуды</li>
+                    </ul>
+                    <img src="/imgs/woman-adding-vegetables-into-salad-side-view.png" alt="Корзина с продуктами">
+                </div>
+                <div class="sec_6__card">
+                    <h3>Питаешься с PlateMate</h3>
+                    <p>Все уже продумано, нужно только разогреть</p>
+                    <img src="/imgs/3043.png" alt="Готовая еда">
+                </div>
+                <div class="sec_6__card">
+                    <h3>Готовим в ночь отправки<br>из самых свежих продуктов</h3>
+                    <img src="/imgs/3043.png" alt="Готовая еда">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- sec_7.html -->
+    <section class="sec_7">
+        <div class="container">
+            <div class="plans-wrapper">
+                <div class="plans-left">
+                    <h2>Наборы</h2>
+                    <div class="tabs">
+                        <button class="tab active">Стартовый</button>
+                        <button class="tab">Базовый+</button>
+                        <button class="tab">Комфорт</button>
+                        <button class="tab">Премиум</button>
+                    </div>
+
+                    <div class="format-options">
+                        <label class="option checked">
+                            <input type="radio" name="format" checked />
+                            <span>6 дней</span>
+                            <b>90 000 ₸</b>
+                        </label>
+
+                        <label class="option">
+                            <input type="radio" name="format" />
+                            <span>12 дней <small>Выгода 25%</small></span>
+                            <b>120 000 ₸</b>
+                        </label>
+
+                        <label class="option">
+                            <input type="radio" name="format" />
+                            <span>24 дня <small>Выгода 38%</small></span>
+                            <b>160 000 ₸</b>
+                        </label>
+
+                        <label class="option">
+                            <input type="radio" name="format" />
+                            <span>Семейная подписка <small>10% на 2-ю подписку</small></span>
+                            <b>250 000 ₸</b>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="plans-right">
+                    <div class="price-box">
+                        <p>12 блюд, 3 дня</p>
+                        <h3>230 000 ₸ <span>в день</span></h3>
+                        <p class="old-price">120 000 ₸</p>
+                    </div>
+
+                    <label class="contact-method">
+                        Удобный способ связи
+                        <select>
+                            <option selected>Telegram</option>
+                            <option>WhatsApp</option>
+                            <option>Звонок</option>
+                        </select>
+                        <small>для уточнения деталей заказа и доставки</small>
+                    </label>
+
+                    <button class="order-btn">Заказать<br><span>230 000 ₸</span></button>
+                    <p class="note">предложение для новых клиентов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="sec_8">
+        <div class="container_8">
+            <div class="top_8">
+                <h1>Отзывы</h1>
+                <p>Посмотрите, что говорят наши клиенты</p>
+            </div>
+            <div class="rasm">
+                <img src="/imgs/Frame 380.png" alt="">
+                <img src="/imgs/Frame 380 (1).png" alt="">
+                <img src="/imgs/Frame 380 (2).png" alt="">
+                <img src="/imgs/Frame 380 (3).png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="faq-section">
+        <h2 class="faq-title">FAQ</h2>
+        <p class="faq-subtitle">Ответы на часто задаваемые вопросы</p>
+
+        <div class="faq-tabs">
+            <button class="faq-tab active">
+                <i class="fa-solid fa-pizza-slice"></i>
+                О еде
+            </button>
+            <button class="faq-tab">
+                <i class="fa-solid fa-bell"></i>
+                Сервис
+            </button>
+            <button class="faq-tab">
+                <i class="fa-solid fa-bookmark"></i>
+                Хранение
+            </button>
+            <button class="faq-tab">
+                <i class="fa-solid fa-wallet"></i>
+                Оплата и доставка
+            </button>
+        </div>
+
+        <div class="faq-items">
+            <details open>
+                <summary>Производство точно безопасное?</summary>
+                <p>Все блюда готовятся на современном производстве, сертифицированном по международной системе ХАССП.
+                    Это более жесткие, чем ГОСТы, требования. Первоначально они разрабатывались для производства пищи
+                    для NASA. Все помещения и оборудование моют два раза в сутки, дважды в неделю проводят очистку с
+                    полной остановкой процессов производства.</p>
+            </details>
+            <details open>
+                <summary>Производство точно безопасное?</summary>
+                <p>Все блюда готовятся на современном производстве, сертифицированном по международной системе ХАССП.
+                    Это более жесткие, чем ГОСТы, требования. Первоначально они разрабатывались для производства пищи
+                    для NASA. Все помещения и оборудование моют два раза в сутки, дважды в неделю проводят очистку с
+                    полной остановкой процессов производства.</p>
+            </details>
+            <details>
+                <summary>Производство точно безопасное?</summary>
+            </details>
+            <details>
+                <summary>Производство точно безопасное?</summary>
+            </details>
+        </div>
+    </section>
+
+    <section class="sec_9">
+        <div class="text-block">
+            <h2>Карта доставки</h2>
+            <div class="zone green">Зеленая зона</div>
+            <ul>
+                <li>Бесплатная доставка</li>
+                <li>Включена в стоимость подписки</li>
+            </ul>
+            <div class="zone yellow">Жёлтая зона</div>
+            <ul>
+                <li>Доплата 50.000 ₫ за доставку</li>
+                <li>Оплачивается дополнительно</li>
+            </ul>
+        </div>
+        <div class="map">
+            <img src="/imgs/map.png" alt="Карта зоны доставки" />
+        </div>
+    </section>
+
+    <footer role="contentinfo" aria-label="Подвал сайта PlateMate">
+        <div class="footer-logo-section" aria-label="Логотип и информация о правах">
+            <!-- Logoni o'zingiz kiritishingiz mumkin -->
+            <img src="/imgs/Logo.svg" alt="PlateMate Da Nang logo" />
+            <div class="copyright-text">
+                © 2025. PlateMate.<br />
+                Все права защищены.
+            </div>
+        </div>
+
+        <div class="footer-location-section" aria-label="Информация о локации и телеграм">
+            <span class="highlight">локация</span>
+            <span>@kantariamo</span>
+            <span class="highlight">телеграм</span>
+        </div>
+
+        <div class="footer-list-section" aria-label="Раздел Клиентам">
+            <strong>Клиентам</strong>
+            <a>Как заказать?</a>
+            <a>Наборы</a>
+            <a>Карта доставки</a>
+            <a>FAQ</a>
+        </div>
+
+        <div class="footer-list-section" aria-label="Раздел Документы">
+            <strong>Документы</strong>
+            <a>Политика конфиденциальности</a>
+            <a>Пользовательское соглашение</a>
+            <a>Соглашение в отношении обработки cookie-файлов</a>
+        </div>
+    </footer>
+</body>
+
+</html>
